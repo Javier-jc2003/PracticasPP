@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    padding: 85px 20px 0;
+}
+
+a{font-size: 1.2em;}
+h1{font-size: 1.8em;}
+
+button{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: 1px solid rgb(0,0,0);
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);
+    color: black;
+    background-color: white;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+header{
+    background-color: rgb(0,0,0);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+header h1{
+margin: 0;
+padding: 12px;
+color: aliceblue;
+}
+
+header .Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a{
+    padding: 15px 10px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+header a:hover{
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 5px;
+    transition: all .7s;
+}
+
+#Principal .Container{
+    text-align: center;
+}
+
+#Principal h3{
+    font-size: 1.2em;
+}
+
+#Principal .col-7{
+    color: white;
+}
+
+#Principal .col-7{
+    background-color: rgb(78, 76, 76);
+}
+
+#Principal li{
+    display: flex;
+    list-style: none;
+    padding: 12px;
+}
+
+#Principal li a img:hover{
+   margin: 1px;
+   transition: all .9s none;
+}
+
+#Principal h4, p{
+    font-size: 1em;
+}
+
+#Principal a{
+    font-size: 1em;
+    color: black;
+}
+
+#noticias{
+    font-size: 1.8em;
+}
+
+#Secundario .Conatiner{
+text-align: center;
+}
+
+#Secundario .col-9{
+    display: flex;
+    padding-left: 25px;   
+}
+
+footer{
+    margin: 0;
+    background-color: black;
+}
+
+footer ul{
+    text-decoration: none;
+}
+
+footer li{
+    color: white;
+}
+
+#Secundario td{
+    padding: 5px 10px;
+}
+
+@media (max-width: 768px) {
+    
+}
